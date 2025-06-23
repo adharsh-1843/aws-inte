@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     # Extract numbers from the event
     num1 = event.get('num1', 0)
     num2 = event.get('num2', 0)
-    print("Hi")
+    print("second change")
 
     # Calculate the sum
     result = num1 + num2
